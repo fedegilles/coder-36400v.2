@@ -1,0 +1,25 @@
+{
+  "name": "coder-36400v.2",
+  "version": "1.0.0",
+  "description": "Repositorio de desarrollo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedegilles/coder-36400v.2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedegilles/coder-36400v.2/issues"
+  },
+  "homepage": "https://github.com/fedegilles/coder-36400v.2#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
